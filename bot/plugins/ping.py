@@ -9,15 +9,15 @@ from bot.core.db.add import add_user_to_database
 async def ping_handler(c: Client, m: "types.Message"):
     await add_user_to_database(c, m)
     await m.reply_photo(
-       photo="https://telegra.ph//file/69b6154eaecdaf3845d9f.jpg",
-       caption=f"""👋 Hai {m.from_user.mention} \n𝙸'𝚖 𝙰 𝚂𝚒𝚖𝚙𝚕𝚎 𝙵𝚒𝚕𝚎 𝚁𝚎𝚗𝚊𝚖𝚎+𝙵𝚒𝚕𝚎 𝚃𝚘 𝚅𝚒𝚍𝚎𝚘 𝙲𝚘𝚟𝚎𝚛𝚝𝚎𝚛 𝙱𝙾𝚃 𝚆𝚒𝚝𝚑 𝙿𝚎𝚛𝚖𝚊𝚗𝚎𝚗𝚝 𝚃𝚑𝚞𝚖𝚋𝚗𝚊𝚒𝚕 𝚂𝚞𝚙𝚙𝚘𝚛𝚝! \n𝙱𝙾𝚃 𝙲𝚛𝚎𝚊𝚝𝚎𝚍 𝙱𝚢: <a href=https://t.me/beta_bot_updates>βΣTΔ βΩTZ</a> \n 🤩""",
+       photo="https://telegra.ph/file/f43d82140dcf056d9e1b3.jpg",
+       caption=f"""👋 Hello {m.from_user.mention} \n𝙸'𝚖 𝙰 𝚂𝚒𝚖𝚙𝚕𝚎 𝙵𝚒𝚕𝚎 𝚁𝚎𝚗𝚊𝚖𝚎+𝙵𝚒𝚕𝚎 𝚃𝚘 𝚅𝚒𝚍𝚎𝚘 𝙲𝚘𝚟𝚎𝚛𝚝𝚎𝚛 𝙱𝙾𝚃 𝚆𝚒𝚝𝚑 𝙿𝚎𝚛𝚖𝚊𝚗𝚎𝚗𝚝 𝚃𝚑𝚞𝚖𝚋𝚗𝚊𝚒𝚕 𝚂𝚞𝚙𝚙𝚘𝚛𝚝!""",
        reply_markup=InlineKeyboardMarkup( [[
-          InlineKeyboardButton("♀️ OWNER ♀️", url='https://t.me/JP_Jeol_org')
+          InlineKeyboardButton("🧑‍💻 Developer", url='https://t.me/hellodarklord')
           ],[
-          InlineKeyboardButton('🤖 UPDATES', url='https://t.me/beta_bot_updates'),
-          InlineKeyboardButton('💥 SUPPORT', url='https://t.me/BETA_BOTSUPPORT')
+          InlineKeyboardButton('Updates 📣', url='https://t.me/+Lxiv8q7-2A5lNmI1'),
+          InlineKeyboardButton('🔗 Support', url='https://t.me/+5SNT8fvIju44NWM9')
           ],[
-          InlineKeyboardButton('⚙️ SETTING', callback_data='showSettings')
+          InlineKeyboardButton('⚙️ Settings', callback_data='showSettings')
           ]]
           )
        )
